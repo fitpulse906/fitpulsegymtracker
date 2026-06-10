@@ -1,1 +1,155 @@
-{"name":"FitPulse Gym Tracker — Workout & Strength Log","short_name":"FitPulse","description":"Fast,offline-first workout tracker.Log sets,time rest,schedule splits,and analyze strength progress.","id":"/","start_url":"/?source=pwa","scope":"/","display":"standalone","display_override":["window-controls-overlay","standalone","minimal-ui","browser"],"orientation":"portrait-primary","theme_color":"#2563eb","background_color":"#0f172a","lang":"en","dir":"ltr","categories":["health","fitness","lifestyle","sports","productivity"],"prefer_related_applications":false,"launch_handler":{"client_mode":["navigate-existing","auto"]},"handle_links":"preferred","edge_side_panel":{"preferred_width":420},"protocol_handlers":[{"protocol":"web+fitpulse","url":"/?action=%s"}],"icons":[{"src":"https://pavzofvewfzvertuizyp.supabase.co/storage/v1/object/public/FILES/logo1.webp","sizes":"192x192","type":"image/webp","purpose":"any"},{"src":"https://pavzofvewfzvertuizyp.supabase.co/storage/v1/object/public/FILES/logo1.webp","sizes":"512x512","type":"image/webp","purpose":"any"},{"src":"https://pavzofvewfzvertuizyp.supabase.co/storage/v1/object/public/FILES/logo1.webp","sizes":"192x192","type":"image/webp","purpose":"maskable"},{"src":"https://pavzofvewfzvertuizyp.supabase.co/storage/v1/object/public/FILES/logo1.webp","sizes":"512x512","type":"image/webp","purpose":"maskable"},{"src":"https://pavzofvewfzvertuizyp.supabase.co/storage/v1/object/public/FILES/logo1.webp","sizes":"512x512","type":"image/webp","purpose":"monochrome"}],"screenshots":[{"src":"https://pavzofvewfzvertuizyp.supabase.co/storage/v1/object/public/FILES/logo1.webp","sizes":"512x512","type":"image/webp","form_factor":"narrow","label":"FitPulse Logger"},{"src":"https://pavzofvewfzvertuizyp.supabase.co/storage/v1/object/public/FILES/logo1.webp","sizes":"512x512","type":"image/webp","form_factor":"wide","label":"FitPulse Analytics"}],"shortcuts":[{"name":"Start Workout","short_name":"Logger","description":"Jump into the logger and start tracking sets in seconds","url":"/logger?source=shortcut","icons":[{"src":"https://pavzofvewfzvertuizyp.supabase.co/storage/v1/object/public/FILES/logo1.webp","sizes":"192x192","type":"image/webp"}]},{"name":"Workout History","short_name":"History","description":"Review your recent sessions,sets and durations","url":"/history?source=shortcut","icons":[{"src":"https://pavzofvewfzvertuizyp.supabase.co/storage/v1/object/public/FILES/logo1.webp","sizes":"192x192","type":"image/webp"}]},{"name":"Strength Analytics","short_name":"Analytics","description":"View progression,PRs and training consistency","url":"/analytics?source=shortcut","icons":[{"src":"https://pavzofvewfzvertuizyp.supabase.co/storage/v1/object/public/FILES/logo1.webp","sizes":"192x192","type":"image/webp"}]},{"name":"Weekly Schedule","short_name":"Schedule","description":"Plan your training split day-by-day","url":"/schedule?source=shortcut","icons":[{"src":"https://pavzofvewfzvertuizyp.supabase.co/storage/v1/object/public/FILES/logo1.webp","sizes":"192x192","type":"image/webp"}]}],"related_applications":[],"iarc_rating_id":"","share_target":{"action":"/?share=1","method":"GET","params":{"title":"title","text":"text","url":"url"}}}
+{
+  "name": "FitPulse Gym Tracker — Workout & Strength Log",
+  "short_name": "FitPulse",
+  "description": "Fast,offline-first workout tracker.Log sets,time rest,schedule splits,and analyze strength progress.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "portrait",
+  "theme_color": "#fafbfc",
+  "background_color": "#fafbfc",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": [
+    "health",
+    "fitness",
+    "lifestyle",
+    "sports",
+    "productivity"
+  ],
+  "prefer_related_applications": false,
+  "launch_handler": {
+    "client_mode": [
+      "navigate-existing",
+      "auto"
+    ]
+  },
+  "handle_links": "preferred",
+  "edge_side_panel": {
+    "preferred_width": 420
+  },
+  "protocol_handlers": [
+    {
+      "protocol": "web+fitpulse",
+      "url": "/?action=%s"
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://pavzofvewfzvertuizyp.supabase.co/storage/v1/object/public/FILES/logo1.webp",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "any"
+    },
+    {
+      "src": "https://pavzofvewfzvertuizyp.supabase.co/storage/v1/object/public/FILES/logo1.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any"
+    },
+    {
+      "src": "https://pavzofvewfzvertuizyp.supabase.co/storage/v1/object/public/FILES/logo1.webp",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://pavzofvewfzvertuizyp.supabase.co/storage/v1/object/public/FILES/logo1.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://pavzofvewfzvertuizyp.supabase.co/storage/v1/object/public/FILES/logo1.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "monochrome"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://pavzofvewfzvertuizyp.supabase.co/storage/v1/object/public/FILES/logo1.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "FitPulse Logger"
+    },
+    {
+      "src": "https://pavzofvewfzvertuizyp.supabase.co/storage/v1/object/public/FILES/logo1.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "form_factor": "wide",
+      "label": "FitPulse Analytics"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Start Workout",
+      "short_name": "Logger",
+      "description": "Jump into the logger and start tracking sets in seconds",
+      "url": "/logger?source=shortcut",
+      "icons": [
+        {
+          "src": "https://pavzofvewfzvertuizyp.supabase.co/storage/v1/object/public/FILES/logo1.webp",
+          "sizes": "192x192",
+          "type": "image/webp"
+        }
+      ]
+    },
+    {
+      "name": "Workout History",
+      "short_name": "History",
+      "description": "Review your recent sessions,sets and durations",
+      "url": "/history?source=shortcut",
+      "icons": [
+        {
+          "src": "https://pavzofvewfzvertuizyp.supabase.co/storage/v1/object/public/FILES/logo1.webp",
+          "sizes": "192x192",
+          "type": "image/webp"
+        }
+      ]
+    },
+    {
+      "name": "Strength Analytics",
+      "short_name": "Analytics",
+      "description": "View progression,PRs and training consistency",
+      "url": "/analytics?source=shortcut",
+      "icons": [
+        {
+          "src": "https://pavzofvewfzvertuizyp.supabase.co/storage/v1/object/public/FILES/logo1.webp",
+          "sizes": "192x192",
+          "type": "image/webp"
+        }
+      ]
+    },
+    {
+      "name": "Weekly Schedule",
+      "short_name": "Schedule",
+      "description": "Plan your training split day-by-day",
+      "url": "/schedule?source=shortcut",
+      "icons": [
+        {
+          "src": "https://pavzofvewfzvertuizyp.supabase.co/storage/v1/object/public/FILES/logo1.webp",
+          "sizes": "192x192",
+          "type": "image/webp"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "iarc_rating_id": "",
+  "share_target": {
+    "action": "/?share=1",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
