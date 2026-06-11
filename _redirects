@@ -4,4 +4,5 @@
 /exercises /index.html 200
 /logger /index.html 200
 /legal/* /legal/:splat 200
+/blog/* /blog/:splat 200
 /* /index.html 200
